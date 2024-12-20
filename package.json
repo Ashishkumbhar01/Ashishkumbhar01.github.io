@@ -1,0 +1,28 @@
+{
+    "name": "codeblast",
+    "version": "1.0.0",
+    "description": "Code Blast: My Portfolio",
+    "main": "index.js",
+    "scripts": {
+        "css:dev": "npx tailwindcss -i ./css/styles.css -o ./css/style.css --watch",
+        "css:build": "npx tailwindcss -i ./css/styles.css -o ./css/style.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ashishkumbhar01/portfolio.git"
+    },
+    "keywords": [
+    "portfolio",
+    "codeblast",
+    "ashishkumbhar"
+  ],
+    "author": "Ashish Kumbhar",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ashishkumbhar01/portfolio/issues"
+    },
+    "homepage": "https://github.com/ashishkumbhar01/portfolio#readme",
+    "devDependencies": {
+        "tailwindcss": "^3.4.17"
+    }
+}
