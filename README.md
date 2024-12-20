@@ -1,5 +1,3 @@
-# Code Blast
-Code Blast: Portfolio of Ashish Kumbhar
 - 👋 Hi, I’m @Ashishkumbhar01
 - 👀 I’m interested in PHP and Laravel
 - 🌱 I’m currently learning Laravel and Others PHP frameworks.
