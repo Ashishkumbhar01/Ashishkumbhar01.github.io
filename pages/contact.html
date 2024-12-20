@@ -1,0 +1,128 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Ashish Kumbhar aka CodeBlast - Portfolio
+    </title>
+    <!-- General SEO Meta Tags -->
+    <meta name="description" content="Welcome to the portfolio of Ashish Kumbhar, a Web Developer. Explore my projects, skills, and experience in Web Development of  PHP/Laravel.">
+    <meta name="keywords" content="Ashish Kumbhar, Portfolio, Web Development, PHP/Laravel and JavaScript/Nodejs, Code Blast">
+    <meta name="author" content="Ashish Kumbhar">
+
+    <!-- Open Graph Meta Tags for Facebook -->
+    <meta property="og:title" content="Ashish Kumbhar | Portfolio">
+    <meta property="og:description" content="Explore the creative works of Ashish Kumbhar, a Web Developer.">
+    <meta property="og:image" content="URL_to_your_image.jpg">
+    <meta property="og:url" content="https://github.com/ashishkumbhar01/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Your Name | Portfolio">
+    <meta name="twitter:description" content="Discover the portfolio of Your Name, showcasing [Your Profession/Field] projects.">
+    <meta name="twitter:image" content="URL_to_your_image.jpg">
+    <meta name="twitter:site" content="@YourTwitterHandle">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .fab {
+            font-size: 28px;
+        }
+    </style>
+</head>
+
+<body class="font-roboto bg-gray-100 text-gray-900">
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+            <a class="text-2xl font-bold text-gray-800" href="#">
+                Code Blast
+            </a>
+            <div class="space-x-4">
+                <a class="text-gray-600 hover:text-gray-800" href="#about">
+                    About
+                </a>
+                <a class="text-gray-600 hover:text-gray-800" href="#projects">
+                    Projects
+                </a>
+                <a class="text-gray-600 hover:text-gray-800" href="#contact">
+                    Contact
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="bg-gray-100 py-20" id="contact">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-6 text-center">
+                Contact Me
+            </h2>
+            <div class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg">
+                <form action="#" method="POST">
+                    <div class="mb-4">
+                        <label class="block text-gray-700 font-bold mb-2" for="name">
+                            Name
+                        </label>
+                        <input class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" id="name" name="name" required="" type="text" />
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 font-bold mb-2" for="email">
+                            Email
+                        </label>
+                        <input class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" id="email" name="email" required="" type="email" />
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 font-bold mb-2" for="message">
+                            Message
+                        </label>
+                        <textarea class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" id="message" name="message" required="" rows="4"></textarea>
+                    </div>
+                    <button class="w-full bg-blue-500 text-white px-6 py-3 rounded-md hover:bg-blue-600" type="submit">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-gray-600">
+                © <span id="year"></span> Code Blast. All rights reserved.
+            </p>
+            <div class="mt-4 space-x-4">
+                <a class="text-gray-600 hover:text-gray-800" href="#">
+                    <i class="fab fa-facebook-f">
+                    </i>
+                </a>
+                <a class="text-gray-600 hover:text-gray-800" href="https://x.com/ashishkumbhar22" target="_blank">
+                    <i class="fab fa-twitter">
+                    </i>
+                </a>
+                <a class="text-gray-600 hover:text-gray-800" href="#">
+                    <i class="fab fa-linkedin-in">
+                    </i>
+                </a>
+                <a class="text-gray-600 hover:text-gray-800" href="https://github.com/sponsors/ashishkumbhar01/" target="_blank">
+                    <i class="fab fa-github">
+                    </i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js" defer></script>
+</body>
+</html>
