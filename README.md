@@ -1,2 +1,2 @@
-# portfolio
+# Portfolio
 Code Blast: My Portfolio
